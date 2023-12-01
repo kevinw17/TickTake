@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/aboutUs', function () {
     return view('aboutUs');
 });
+
+Route::view('/home', 'home');
