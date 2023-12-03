@@ -22,3 +22,5 @@ Route::get('/aboutUs', function () {
 });
 
 Route::view('/home', 'home');
+
+Route::view('/eventdetail', 'detail');
