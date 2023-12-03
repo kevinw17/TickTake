@@ -1,12 +1,9 @@
-@extends('layout')
-
-@section('eventdetail')
+@extends('layouts.layout')
 
 @section('content')
 
-
 <div class="row">
-    <h5 class = "place-h1 pt-4">feature events</h5>
+    <h5 class = "place-h1 pt-4">Feature Events</h5>
     <div class="col">
         
         <div class="card my-4" style="width:300px">

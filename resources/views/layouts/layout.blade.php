@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title')</title>
+    <title>{{ $title }}</title>
+
+    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
@@ -13,51 +15,8 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <style>
-      .card-img{
-        float:left;
-        position: absolute;
-        left: 2vw;
-        top: 39vh;
-        /* border: black solid; */
-        width: 25px;
-        height: 25px;
-
-      }
-
-      .c-img{
-        height: 20vh;
-        /* border-radius: 10px; */
-      }
-
-      .border-top{
-      
-      }
-
-      .btn-success{
-        display: flex;
-        justify-content: center;
-        width: 15vw;
-        margin-left: 35vw;
-        text-transform: capitalize;
-        
-      }
-
-      .place-h1{
-        text-transform: capitalize;
-      }
-
-      .place-h2{
-        text-transform:capitalize;
-      }
-
-     /* .card-img-top{
-        border: solid black
-        height: 
-     } */
-    </style>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
@@ -73,9 +32,9 @@
           </form>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About Us</a>
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" aria-current="page" href="#">Home</a>
+              <a class="nav-link {{ ($title === "About Us") ? 'active' : '' }}" href="#">About Us</a>
+              <a class="nav-link {{ ($title === "Contact Us") ? 'active' : '' }}" href="#">Contact Us</a>
               <a class="nav-link" href="#">Register</a>
               <a class="nav-link" href="#">Sign In</a>
             </div>
@@ -87,8 +46,7 @@
     <!-- Container -->
     <div class="container">
         <div class="row">
-            <div class="col">@yield('content')
-            </div>
+            @yield('content')
         </div>
     </div>
     <!-- Container -->

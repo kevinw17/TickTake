@@ -1,8 +1,7 @@
-@extends('layout')
+@extends('layouts.layout')
 
 @section('content')
-
-    
+  
     <div class="row">
         <div class="col">
 
@@ -16,22 +15,16 @@
                   <div class="carousel-item active">
                     <img src="img/carousell.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      {{-- <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p> --}}
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/carousell.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      {{-- <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p> --}}
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/carousell.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                      {{-- <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p> --}}
                     </div>
                   </div>
                 </div>
@@ -49,7 +42,7 @@
     </div>
 
     <div class="row">
-        <h5>feature events</h5>
+        <h5>Feature Events</h5>
         <div class="col">
             
             <div class="card my-4" style="width:300px">
