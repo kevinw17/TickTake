@@ -30,3 +30,9 @@ Route::get('/events', function () {
         "title" => "All Events"
     ]);
 });
+
+Route::get('/signin', function () {
+    return view('signin', [
+        "title" => "Sign In"
+    ]);
+});
