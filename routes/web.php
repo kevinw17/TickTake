@@ -36,3 +36,11 @@ Route::get('/signin', function () {
         "title" => "Sign In"
     ]);
 });
+
+Route::get('/aboutUs/{id}', function ($id) {
+    return view('user_aboutUs', [
+        "id" => 1,
+        "title" => "About Us",
+        "name" => "Abraham"
+    ]);
+});

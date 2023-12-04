@@ -182,7 +182,7 @@
     <div class="row">
       <div class="col">
         <div class="container">
-          <div class="btn btn-success my-4 ">explore all the events</div>
+          <div class="btn btn-success my-4">explore all the events</div>
         </div>
       </div>
     </div>
