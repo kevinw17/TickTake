@@ -18,6 +18,9 @@
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum debitis maxime deleniti autem 
               deserunt quibusdam reiciendis repellendus, ex inventore voluptatibus sit nemo? 
               Hic labore deleniti incidunt voluptates est nesciunt?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit at molestias aspernatur, 
+                a culpa deserunt quos? Quo maxime at, ab officia corporis nesciunt eius mollitia. Unde obcaecati quidem ad? Repellendus?
+            </p>
             <button class="btn btn-outline-primary col-md-2"> click here</button>
           </div>
       </div>
