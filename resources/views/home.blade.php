@@ -151,7 +151,7 @@
       </div>
 
       <div class="col">
-        <div class="btn btn-success my-4">Explore all events</div>
+        <div class="btn btn-success my-4 md-4">Explore all events</div>
       </div>
     </div>   
     
