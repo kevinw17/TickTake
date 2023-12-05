@@ -5,7 +5,7 @@
       <p class="display-1 text-capitalize">About us</p>
     </div>
      
-    <div class="row my-4 py-2 border">
+    <div class="row my-4 py-2 border ">
       <div class="col-md-4 my-4 bg-none">
           <img src="img/operator.jpg" alt="" class="img-fluid rounded-start">
       </div>
