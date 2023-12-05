@@ -53,7 +53,6 @@
                 <p class="card-text">Rp 1.294.000 </p>
                 <img src="img/R.png" alt="" class="d-flex position-absolute" style="height: 8%; top:86.5%; width:10%; left:15%" >
                 <a class="btn border pb-2 position-relative px-5" style="left:8%; ">Prestige Promotion</a>
-                
               </div>
             </div>
 
