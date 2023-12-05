@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\HomeController;
+use App\Models\Event;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,21 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
-    return view('home', [
-        "title" => "Home"
-    ]);
-});
+Route::get('/home', [HomeController::class, 'index']);
+Route::get('/events', [EventController::class, 'show']);
 
 Route::get('/aboutUs', function () {
     return view('aboutUs', [
         "title" => "About Us"
-    ]);
-});
-
-Route::get('/events', function () {
-    return view('events', [
-        "title" => "All Events"
     ]);
 });
 
@@ -39,7 +33,6 @@ Route::get('/signin', function () {
 
 Route::get('/aboutUs/{id}', function ($id) {
     return view('user_aboutUs', [
-        "id" => 1,
         "title" => "About Us",
         "name" => "Abraham"
     ]);
