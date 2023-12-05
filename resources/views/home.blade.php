@@ -150,13 +150,10 @@
           </div>
       </div>
 
-    <div class="row">
       <div class="col">
-        <div class="container">
-          <div class="btn btn-success my-4">Explore all events</div>
-        </div>
+        <div class="btn btn-success my-4">Explore all events</div>
       </div>
-    </div>
+    </div>   
     
 
 @endsection
