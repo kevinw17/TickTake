@@ -2,41 +2,33 @@
 
 @section('content')
 
-    <div class="row">
-        <h1 class="jumbotron text-center py-5" style="font-family: Averia Libre">
-            Sign In
-        </h1>
-    </div>
+    <div class="container">
+        <h2 class="card-title text-center mb-4 text-capitalize">Sign In</h2>
+        <form action="#">
 
-    <div class="row">
-        <div class="form-group" style="margin-bottom: 20px;">
-            <label for="email" style="display: block; font-weight: bold; margin-bottom: 8px;">
-                Email:
-            </label>
-            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; box-sizing: border-box;">
-        </div>
-    </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
 
-    <div class="row">
-        <div class="form-group" style="margin-bottom: 20px;">
-            <label for="password" style="display: block; font-weight: bold; margin-bottom: 8px;">
-                Password:
-            </label>
-            <input type="password" id="password" name="password" required style="width: 100%; padding: 8px; box-sizing: border-box;">
-        </div>
-          
-    </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
 
-    <div class="row">
-        <button type="submit" class="btn-login" style="background-color: #4ECDC4; padding: 10px;">
-            Sign In
-        </button>
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+                <p class="card-title text-center mb-4 text-capitalize">Don't have an account? 
+                    <a href="#">
+                        Register here
+                    </a></p>
+            </div>
+            <div class="col">
+                <button class="btn btn-outline-primary col-md-7 card-title text-center mb-4" style="background-color: #4ECDC4">Sign In</button>
+            </div>
+            
+        </form>
     </div>
-    <p class="jumbotron text-center py-5" style="font-family: Averia Libre">
-        Don't have an account? 
-        <a href="#">
-            Register here
-        </a>
-    </p>
 
 @endsection
+
