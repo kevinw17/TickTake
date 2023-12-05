@@ -31,6 +31,12 @@ Route::get('/signin', function () {
     ]);
 });
 
+Route::get('/register', function () {
+    return view('register', [
+        "title" => "Register"
+    ]);
+});
+
 Route::get('/aboutUs/{id}', function ($id) {
     return view('user_aboutUs', [
         "title" => "About Us",
