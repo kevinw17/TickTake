@@ -11,14 +11,14 @@
       </div>
       <div class="col-md-8">
           <div class="card-body pt-2">
-            <h3 class="card-title text-center mb-4 text-capitalize"> best service</h3>
+            <h3 class="card-title text-center mb-4 text-capitalize"> history</h3>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi eveniet vel ullam. Ducimus 
               culpa voluptas nisi labore voluptatum. Inventore, 
               ad neque? Illum odio repudiandae sit dolore non quas eum culpa.</p>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum harum debitis maxime deleniti autem 
               deserunt quibusdam reiciendis repellendus, ex inventore voluptatibus sit nemo? 
               Hic labore deleniti incidunt voluptates est nesciunt?</p>
-            <button class="btn btn-outline-primary"> click here</button>
+            <button class="btn btn-outline-primary col-md-2"> click here</button>
           </div>
       </div>
     </div>
