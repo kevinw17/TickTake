@@ -49,8 +49,8 @@
                         Register here
                     </a></p>
             </div>
-            <div class="col">
-                <button class="btn btn-outline-primary col-md-7 card-title text-center mb-4" style="background-color: #4ECDC4">Sign In</button>
+            <div class="col-12">
+                <button class="btn btn-outline-primary col-md-7 card-title text-center mb-4 w-100" style="background-color: #4ECDC4">Sign In</button>
             </div>
             
         </form>
