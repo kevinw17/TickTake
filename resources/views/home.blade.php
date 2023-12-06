@@ -150,10 +150,17 @@
           </div>
       </div>
 
-      <div class="col">
-        <div class="btn btn-success my-4 md-4">Explore all events</div>
+    </div> 
+    
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 my-3 ">
+             <button class="btn btn-success text-capitalized"> see all</button>
+          </div>
+        </div>
       </div>
-    </div>   
+    </div>
     
 
 @endsection

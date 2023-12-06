@@ -43,3 +43,9 @@ Route::get('/aboutUs/{id}', function ($id) {
         "name" => "Abraham"
     ]);
 });
+
+Route::get('/contactUs', function(){
+    return view('contactUs', [
+        "title" => "contact us"
+    ]);
+});

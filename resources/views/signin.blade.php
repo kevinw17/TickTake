@@ -18,8 +18,18 @@
 </head>
 <body>
     
-    <div class="container">
-        <h2 class="card-title text-center mb-4 text-capitalize">Sign In</h2>
+    <div class="container-fluid py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="card-title text-center d-block text-capitalize" style="margin-top: 16vh;">Sign In</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex align-items-center justify-content-center" style=" margin-top: 4vh;">
+       
         <form action="#">
 
             <div class="form-group">
