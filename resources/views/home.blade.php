@@ -51,7 +51,7 @@
                 <p class="card-text">{{ $events["event_date"] }} </p>
                 <p class="card-text">{{ $events["event_price"] }}</p>
                 <img src="img/{{ $events["producer_logo"] }}" alt="" class="d-flex position-absolute" style="height: 8%; top:86.5%; width:10%; left:15%" >
-                <a class="btn border pb-2 position-relative px-5" style="left:8%; ">{{ $events["producer_name"] }}</a>
+                <a class="btn border pb-2 position-relative px-5" style="left:8%; ">{{ $events["producer_name"]}}</a>
               </div>
             </div>
         </div>

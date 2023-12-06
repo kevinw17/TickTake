@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -18,5 +19,31 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        // User::create([
+        //     [
+        //         'name' => 'Abraham',
+        //         'email' => 'abraham@gmail.com',
+        //         'password' => bcrypt('123456')
+        //     ],
+        //     [
+        //         'name' => 'Damar',
+        //         'email' => 'damar@gmail.com',
+        //         'password' => bcrypt('123123')
+        //     ],
+        //     [
+        //         'name' => 'Grahita',
+        //         'email' => 'grahita@gmail.com',
+        //         'password' => bcrypt('111111')
+        //     ]
+        // ]);
+
+        $this->call([
+            OrganizerSeeder::class,
+            EventSeeder::class,
+            EventDetailSeeder::class,
+            TransactionSeeder::class,
+            CategorySeeder::class
+        ]);
     }
 }
