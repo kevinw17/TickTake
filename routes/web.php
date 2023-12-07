@@ -49,3 +49,9 @@ Route::get('/contactUs', function(){
         "title" => "contact us"
     ]);
 });
+
+Route::get('/eventdetail', function(){
+    return view('eventdetail', [
+        "title" => "event detail"
+    ]);
+});
