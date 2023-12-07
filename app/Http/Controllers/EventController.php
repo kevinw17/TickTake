@@ -3,34 +3,35 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
-use App\Models\EventDetail;
-use App\Models\Organizer;
 use Illuminate\Http\Request;
-use App\Models\Event;
+use Illuminate\Support\Facades\DB;
 
 class EventController extends Controller
 {
     public function show()
     {
-
-        $organizers = Organizer::all();
-        $events = Event::all();
-        $event_details = EventDetail::all();
         $categories = Category::all();
+        $datas = DB::select(
+            "
+            SELECT e.name AS `EventName`, 
+                   e.pict AS `EventPict`, 
+                   ed.event_date AS `EventDate`, 
+                   ed.event_time AS `EventTime`, 
+                   ed.price AS `EventPrice`, 
+                   o.name AS `OrganizerName`, 
+                   o.logo AS `OrganizerLogo`,
+                   c.name AS `CategoryName`
+            FROM event_details ed
+            JOIN events e ON e.id = ed.event_id
+            JOIN organizers o ON o.id = e.organizer_id
+            JOIN categories c ON c.id = ed.category_id
+            "
+        );
 
         return view('events', [
             "title" => "All Events",
-            "organizers" => $organizers,
-            "events" => $events,
-            "event_details" => $event_details,
-            "categories" => $categories,
-            "event" => [
-                "event_title" => "Steve Aoki's",
-                "event_date" => "10 Dec 2023",
-                "event_price" => "Rp. 1.249.000",
-                "producer_name" => "Prestige Promotion",
-                "producer_logo" => "R.png"
-            ]
+            "events" => $datas,
+            "categories" => $categories
         ]);
     }
 }
