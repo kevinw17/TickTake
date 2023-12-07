@@ -6,11 +6,13 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class EventSeeder extends Seeder {
+class EventSeeder extends Seeder
+{
     /**
      * Run the database seeds.
      */
-    public function run(): void {
+    public function run(): void
+    {
         //
         $datas = [
             [
@@ -21,15 +23,15 @@ class EventSeeder extends Seeder {
             [
                 "name" => "Didangdutin Fest",
                 "organizer_id" => 2,
-                "pict" => "image 32.png"
+                "pict" => "image 32.jpg"
             ],
             [
                 "name" => "Lazada Fest 12.12",
                 "organizer_id" => 3,
-                "pict" => "image 33.png"
+                "pict" => "image 33.jpg"
             ],
             [
-                "name" => "RAN The Sweet Seventeen Show",
+                "name" => "Sweet Seventeen Show",
                 "organizer_id" => 4,
                 "pict" => "image 34.png"
             ],
