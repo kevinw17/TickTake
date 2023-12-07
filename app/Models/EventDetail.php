@@ -14,4 +14,9 @@ class EventDetail extends Model
     {
         return $this->belongsTo(Event::class);
     }
+
+    public function category(): BelongsTo
+    {
+        return $this->belongsTo(Category::class);
+    }
 }

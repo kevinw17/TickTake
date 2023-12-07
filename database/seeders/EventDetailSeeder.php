@@ -17,6 +17,7 @@ class EventDetailSeeder extends Seeder
         $datas = [
             [
                 "event_id" => 1,
+                "category_id" => 1,
                 "event_date" => "10 December 2023",
                 "event_time" => "17:00",
                 "place" => "Gelora Bung Karno",
@@ -26,6 +27,7 @@ class EventDetailSeeder extends Seeder
             ],
             [
                 "event_id" => 2,
+                "category_id" => 1,
                 "event_date" => "12 December 2023",
                 "event_time" => "18:00",
                 "place" => "Trans Studio Mall",
@@ -35,6 +37,7 @@ class EventDetailSeeder extends Seeder
             ],
             [
                 "event_id" => 3,
+                "category_id" => 1,
                 "event_date" => "15 December 2023",
                 "event_time" => "19:00",
                 "place" => "Indonesia Arena",
@@ -44,6 +47,7 @@ class EventDetailSeeder extends Seeder
             ],
             [
                 "event_id" => 4,
+                "category_id" => 1,
                 "event_date" => "17 December 2023",
                 "event_time" => "20:00",
                 "place" => "Ciputra World",

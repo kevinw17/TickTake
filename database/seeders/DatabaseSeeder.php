@@ -42,7 +42,6 @@ class DatabaseSeeder extends Seeder
             OrganizerSeeder::class,
             EventSeeder::class,
             EventDetailSeeder::class,
-            TransactionSeeder::class,
             CategorySeeder::class
         ]);
     }
