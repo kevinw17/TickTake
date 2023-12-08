@@ -16,7 +16,6 @@ class EventController extends Controller
             SELECT e.name AS `EventName`, 
                    e.pict AS `EventPict`, 
                    ed.event_date AS `EventDate`, 
-                   ed.event_time AS `EventTime`, 
                    ed.price AS `EventPrice`, 
                    o.name AS `OrganizerName`, 
                    o.logo AS `OrganizerLogo`,
