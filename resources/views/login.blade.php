@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
@@ -17,44 +17,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    
-    <div class="container-fluid py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="card-title text-center d-block text-capitalize" style="margin-top: 16vh;">Sign In</h2>
-                </div>
-            </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
+            @if (session()->has('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    {{ session('success') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div> 
+            @endif
+
+            @if (session()->has('loginError'))
+                <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+                    {{ session('loginError') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div> 
+            @endif
+
+            <main class="form-signin w-100 m-auto">
+                <h1 class="h3 mb-3 fw-normal mt-5 text-center">Please Login</h1>
+                <form action="/login" class="mt-5" method="POST">
+                    @csrf
+                    <div class="form-floating">
+                        <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" autofocus required value="{{ old('email') }}">
+                        <label for="email">Email address</label>
+                        @error('email')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                        @enderror
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <button class="w-100 btn btn-lg mt-4" type="submit" style="background-color: #4ECDC4">Login</button>
+                </form>
+                <small class="d-block text-center mt-3">Don't have an account yet? <a href="/register"> Register Here!</a></small>
+            </main>
         </div>
     </div>
-
-    <div class="container d-flex align-items-center justify-content-center" style=" margin-top: 4vh;">
-       
-        <form action="#">
-
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-            </div>
-
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-            </div>
-
-            <div class="checkbox">
-                <label><input type="checkbox" name="remember"> Remember me</label>
-                <p class="card-title text-center mb-4 text-capitalize">Don't have an account? 
-                    <a href="#">
-                        Register here
-                    </a></p>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-outline-primary col-md-7 card-title text-center mb-4 w-100" style="background-color: #4ECDC4">Sign In</button>
-            </div>
-            
-        </form>
-    </div>
-
 </body>
 

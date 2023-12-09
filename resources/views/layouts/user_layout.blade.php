@@ -21,7 +21,7 @@
     <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
         <div class="container">
-          <a class="navbar-brand" href="#">TickTake</a>
+          <a class="navbar-brand" href="/home">TickTake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,9 +32,9 @@
           </form>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About Us</a>
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link active" aria-current="page" href="/home">Home</a>
+              <a class="nav-link" href="/user_aboutUs">About Us</a>
+              <a class="nav-link" href="/contactUs">Contact Us</a>
               <a class="nav-link fw-bold">Hello, {{ $name }}</a>
             </div>
           </div> 
