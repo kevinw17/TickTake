@@ -3,8 +3,12 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
+use App\Models\Event;
+use App\Models\EventDetail;
 use App\Models\User;
+use App\Models\Organizer;
+use Illuminate\Database\Seeder;
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -20,28 +24,15 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        // User::create([
-        //     [
-        //         'name' => 'Abraham',
-        //         'email' => 'abraham@gmail.com',
-        //         'password' => bcrypt('123456')
-        //     ],
-        //     [
-        //         'name' => 'Damar',
-        //         'email' => 'damar@gmail.com',
-        //         'password' => bcrypt('123123')
-        //     ],
-        //     [
-        //         'name' => 'Grahita',
-        //         'email' => 'grahita@gmail.com',
-        //         'password' => bcrypt('111111')
-        //     ]
-        // ]);
+        User::factory(5)->create();
+        Organizer::factory(5)->create();
+        Event::factory(8)->create();
+        EventDetail::factory(20)->create();
 
         $this->call([
-            OrganizerSeeder::class,
-            EventSeeder::class,
-            EventDetailSeeder::class,
+                // OrganizerSeeder::class,
+                // EventSeeder::class,
+                // EventDetailSeeder::class,
             CategorySeeder::class
         ]);
     }

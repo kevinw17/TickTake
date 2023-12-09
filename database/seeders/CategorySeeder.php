@@ -15,9 +15,9 @@ class CategorySeeder extends Seeder
     {
         //
         $datas = [
-            ["name" => "Feature Events"],
-            ["name" => "Festival Fair"],
-            ["name" => "Sports Festival"]
+            ["name" => "Concerts"],
+            ["name" => "Indonesian Culture"],
+            ["name" => "Sports"]
         ];
 
         DB::table('categories')->insert($datas);
