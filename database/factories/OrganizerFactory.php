@@ -16,9 +16,9 @@ class OrganizerFactory extends Factory
      */
     public function definition(): array
     {
-        return [
-            'name' => $this->faker->word(),
-            'logo' => $this->faker->image('public/img', 1024, 1024, null, false)
-        ];
+        // return [
+        //     'name' => $this->faker->word(),
+        //     'logo' => $this->faker->image('public/img', 1024, 1024, null, false)
+        // ];
     }
 }

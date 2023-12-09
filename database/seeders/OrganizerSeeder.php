@@ -31,6 +31,10 @@ class OrganizerSeeder extends Seeder
                 "name" => "Antara Suara",
                 "logo" => "R.png"
             ],
+            [
+                "name" => "FIFA",
+                "logo" => "R.png"
+            ],
         ];
 
         DB::table('organizers')->insert($datas);

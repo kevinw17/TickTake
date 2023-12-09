@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->foreignId('event_id');
             $table->foreignId('category_id');
             $table->date('event_date');
+            $table->string('place');
             $table->string('city');
             $table->integer('price');
             $table->integer('quota');
