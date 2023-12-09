@@ -19,7 +19,7 @@
             <label for="Name">Full Name:</label>
             <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name">
         </div>
-
+        
         <div class="form-group">
             <label for="Email">Email:</label>
             <input type="email" class="form-control" id="Email" placeholder="Enter Email" name="Email">
