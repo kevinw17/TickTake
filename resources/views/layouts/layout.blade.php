@@ -40,7 +40,7 @@
               <a class="nav-link {{ ($title === "About Us") ? 'active' : '' }}" href="#">About Us</a>
               <a class="nav-link {{ ($title === "Contact Us") ? 'active' : '' }}" href="#">Contact Us</a>
               <a class="nav-link" href="#">Register</a>
-              <a class="nav-link" href="#">Sign In</a>
+              <a class="nav-link" href="#">Login</a>
             </div>
           </div> 
         </div>
