@@ -25,7 +25,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
         <div class="container">
-          <a class="navbar-brand" href="#">TickTake</a>
+          <a class="navbar-brand" href="/home">TickTake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,11 +36,11 @@
           </form>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" aria-current="page" href="#">Home</a>
-              <a class="nav-link {{ ($title === "About Us") ? 'active' : '' }}" href="#">About Us</a>
-              <a class="nav-link {{ ($title === "Contact Us") ? 'active' : '' }}" href="#">Contact Us</a>
-              <a class="nav-link" href="#">Register</a>
-              <a class="nav-link" href="#">Sign In</a>
+              <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" aria-current="page" href="/home">Home</a>
+              <a class="nav-link {{ ($title === "About Us") ? 'active' : '' }}" href="/aboutUs">About Us</a>
+              <a class="nav-link {{ ($title === "Contact Us") ? 'active' : '' }}" href="/contactUs">Contact Us</a>
+              <a class="nav-link" href="/register">Register</a>
+              <a class="nav-link" href="/login">Login<i class="bi bi-box-arrow-in-right"></i></a>
             </div>
           </div> 
         </div>

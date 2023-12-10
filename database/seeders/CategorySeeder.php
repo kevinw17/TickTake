@@ -16,7 +16,7 @@ class CategorySeeder extends Seeder
         //
         $datas = [
             ["name" => "Concerts"],
-            ["name" => "Indonesian Culture"],
+            ["name" => "Indonesian Festival"],
             ["name" => "Sports"]
         ];
 

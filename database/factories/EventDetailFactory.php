@@ -16,13 +16,13 @@ class EventDetailFactory extends Factory
      */
     public function definition(): array
     {
-        return [
-            "event_id" => mt_rand(1, 8),
-            "category_id" => mt_rand(1, 3),
-            "event_date" => $this->faker->dateTimeBetween('-1 week', '+1 week'),
-            "city" => $this->faker->city(),
-            "price" => mt_rand(100000, 1000000),
-            "quota" => mt_rand(50, 1000)
-        ];
+        // return [
+        //     "event_id" => mt_rand(1, 8),
+        //     "category_id" => mt_rand(1, 3),
+        //     "event_date" => $this->faker->dateTimeBetween('-1 week', '+1 week'),
+        //     "city" => $this->faker->city(),
+        //     "price" => mt_rand(100000, 1000000),
+        //     "quota" => mt_rand(50, 1000)
+        // ];
     }
 }

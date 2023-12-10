@@ -25,14 +25,14 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         User::factory(5)->create();
-        Organizer::factory(5)->create();
-        Event::factory(8)->create();
-        EventDetail::factory(20)->create();
+        // Organizer::factory(5)->create();
+        // Event::factory(8)->create();
+        // EventDetail::factory(20)->create();
 
         $this->call([
-                // OrganizerSeeder::class,
-                // EventSeeder::class,
-                // EventDetailSeeder::class,
+            OrganizerSeeder::class,
+            EventSeeder::class,
+            EventDetailSeeder::class,
             CategorySeeder::class
         ]);
     }
