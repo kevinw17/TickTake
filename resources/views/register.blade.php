@@ -18,8 +18,18 @@
 </head>
 <body>
 
-    <div class="container">
-        <h2 class="card-title text-center mb-4 text-capitalize">Register</h2>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-4 col-12 " style="margin-top:14vh; ">
+                    <h2 class="card-title text-center mb-4 text-capitalize ">Register</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex align-items-center justify-content-center" style="margin-top:4vh;">
+        
         <form action="#">
 
             <div class="form-group">
@@ -44,7 +54,7 @@
                     </a></p>
             </div>
             <div class="col">
-                <button class="btn btn-outline-primary col-md-7 card-title text-center mb-4" style="background-color: #4ECDC4">Register</button>
+                <button class="btn btn-outline-primary col-md-7 card-title text-center mb-4 w-100" style="background-color: #4ECDC4">Register</button>
             </div>
             
         </form>
