@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class EventController extends Controller
 {
-    public function show()
+    public function index()
     {
         $categories = Category::all();
         $datas = DB::select(
