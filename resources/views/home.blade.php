@@ -38,6 +38,8 @@
 
  
 
+ 
+
   @foreach ($categories as $c)
     <h5>{{ $c->name }}</h5>
     @foreach ($events as $event)
