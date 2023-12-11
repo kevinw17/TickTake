@@ -1,0 +1,133 @@
+#navbar-content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 4rem;
+    box-shadow: 6rem;
+    padding-bottom: 1rem ;
+    /* border-bottom: grey solid; */
+    margin-top: 1rem;
+}
+
+#img-event{
+    display: flex;
+    justify-content: center;
+    width:120%;
+}
+
+.overview{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black ;
+}
+
+#important-card{
+    background-color:rgb(221, 221, 221);
+    border-radius: 10px;
+    width: 120%;
+    padding:2rem;
+}
+
+#title-event{
+    /* border-bottom: grey solid; */
+}
+
+#ticket-select{
+    /* border-bottom: grey solid; */
+    padding-bottom: 2rem;
+}
+
+/* #btn-events{
+    top: 7.5rem;
+    left: 70rem;
+    width: 12%;
+    /* color: green; */
+    /* text-transform: capitalize;
+    font-weight: bolder; */
+    /* padding:  */
+/* } */
+
+
+/* #price-tag{
+    position: absolute;
+    top:4.5rem;
+    left: 70rem; */
+    /* border: solid black; */
+    /* width: 13%;
+    text-transform: uppercase; 
+}   */
+
+.price{
+    color: orange;
+}
+
+#container-product{
+    background-color: rgb(207, 207, 207);
+    font-family: sans-serif;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#container-inside{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+    padding: 2rem;
+    
+}
+
+/* #details-card{
+    position:absolute;
+    text-decoration: none;
+    color: aqua;
+    top: 4.5rem;
+    left:1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+} */
+
+#icon-fa{
+    color: darkgrey;
+}
+
+#botm-icon{
+    justify-content: start;
+    gap: 1rem;
+    border-bottom: dotted 2px;
+}
+
+#checkhout{
+    justify-content: space-between;
+}
+
+#title-card-sch{
+    color: gray;
+    font-size:1rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+#title-card-refernce{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#location{
+    font-size: 12px;
+    color: gray;
+    font-weight: 600;
+}
+
+#btn-price-card{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: chocolate;
+    
+}

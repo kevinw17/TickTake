@@ -18,7 +18,7 @@ class EventSeeder extends Seeder
             [
                 "name" => "Steve Aoki's",
                 "organizer_id" => 1,
-                "pict" => "image 31.png"
+                "pict" => "image 31.jpg"
             ],
             [
                 "name" => "Didangdutin Fest",
@@ -38,7 +38,7 @@ class EventSeeder extends Seeder
             [
                 "name" => "FIFA 2023",
                 "organizer_id" => 5,
-                "pict" => "image 31.png"
+                "pict" => "image 31.jpg"
             ],
             [
                 "name" => "FIFA U-17 2023",

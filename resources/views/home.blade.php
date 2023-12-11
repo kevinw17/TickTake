@@ -36,6 +36,10 @@
     </div>
   </div>
 
+ 
+
+ 
+
   @foreach ($categories as $c)
     <h5>{{ $c->name }}</h5>
     @foreach ($events as $event)
@@ -47,7 +51,7 @@
                   <h4 class="card-title" style="text-transform: capitalize">{{ $event->EventName }}</h4>
                   <p class="card-text">{{ $event->EventDate }} </p>
                   <p class="card-text">Rp. {{ $event->EventPrice }}</p>
-                  <img src="img/{{ $event->OrganizerLogo }}" alt="" class="d-flex position-absolute rounded-circle" style="height: 8%; top:86.5%; width:10%;" >
+                  <img src="img/{{ $event->OrganizerLogo }}" alt="" class="d-flex position-absolute rounded-circle" style="height: 7%; top:85.5%; width:11%;" >
                   <a class="btn pb-2 position-relative ms-4">{{ $event->OrganizerName }}</a>
                 </div>
               </div>
