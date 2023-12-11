@@ -2,6 +2,9 @@
 
 @section('content')
   
+  
+
+
   <div class="row">
     <div class="col">
       <div id="carouselExampleCaptions" class="carousel slide py-4 ">

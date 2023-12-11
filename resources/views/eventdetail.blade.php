@@ -18,6 +18,37 @@
                     <a href="" class="overview">description</a>
                 </div>
 
+                <div class="col-lg-12 col-12 position-relative my-4 border-bottom" id="ticket-select">
+                    
+                    <h5 class="title-text text-capitalize">events</h5>
+
+                    <h1 class="big-event-title text-uppercase col-md-4 w-100" id="biggest-event-title">gmmtv musicon in jakarta</h1>
+
+                    <div class="col-lg-12 col-md-5 my-3" id="content-box">
+
+                        <div class="wrapper d-flex justify-content-between">
+                            <h5 class="event-launch"><i class="fa-solid fa-calendar-check"></i> 16 dec 2006</h5>
+                            <h3 class="price-tag" id="price-tag"><span class="price text-uppercase">idr</span> 895.000</h3>
+                            
+                        </div>
+
+                        <div class="wrapper d-flex w-100 justify-content-between">
+                            <h5 class="location"><i class="fa-solid fa-location-dot"></i> jl anggrek, binus anggrek</h5>
+                            <button class="btn btn-success text-capitalize" style="font-weight: bold;">see ticket</button>
+                            
+                        </div>
+
+                        <div class="wrapper" id="quota">
+                            
+                            <h5 class="text-capitalize"><i class="fa-solid fa-people-group"></i>1800 people</h5>
+                        </div>
+                        
+                       
+                    </div>
+
+                </div>
+
+
                 <div class="col-lg-12 col-md-4 my-4 border-bottom" id="title-event"> 
                     
                     <h5 class="title-text text-capitalize" id="highlight"> highlight</h5>
@@ -54,28 +85,7 @@
                     
                 </div>
 
-                <div class="col-lg-12 col-12 position-relative border-bottom" id="ticket-select">
-                    
-                    <h5 class="title-text text-capitalize">events</h5>
-
-                    <h1 class="big-event-title text-uppercase col-md-4 w-100" id="biggest-event-title">gmmtv musicon in jakarta</h1>
-
-                    <div class="col-lg-12 col-md-5 my-3" id="content-box">
-
-                        <div class="wrapper d-flex justify-content-between">
-                            <h5 class="event-launch"><i class="fa-solid fa-calendar-check"></i> 16 dec 2006</h5>
-                            <h3 class="price-tag" id="price-tag"><span class="price text-uppercase">idr</span> 390.000</h3>
-                            
-                        </div>
-
-                        <div class="wrapper d-flex w-100 justify-content-between">
-                            <h5 class="location"><i class="fa-solid fa-location-dot"></i> jl anggrek, binus anggrek</h5>
-                            <button class="btn btn-success text-capitalize">see products</button>
-                        </div>
-                       
-                    </div>
-
-                </div>
+              
 
                 <div class="col-lg-12 col-md-6 col-12 pt-4 border-bottom pb-4">
                     
@@ -98,10 +108,10 @@
                      
                         <div class="col-md-8" id="container-inside">
                             <div class="wrapper d-flex justify-content-between">
-                                <h4 class="text-title-product text-uppercase">seat a</h4>
-                                <a href="" class="details " id="details-card">details</a>
+                                <h4 class="text-title-product text-uppercase">entry ticket</h4>
+                                
                             </div>
-                            <h5 class="sub-title-prd text-uppercase">standing with queue number</h5>
+                            <h5 class="sub-title-prd text-uppercase">greenday music come to town</h5>
                             <div class="content col-md-6 w-100 d-flex" id="top-icon">
                 
                                 <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-money-bill-wave"></i> no refund allowed | </p>
@@ -123,82 +133,7 @@
                             
                         </div>
                         
-
-                        <div class="col-md-8 my-4" id="container-inside">
-                            <div class="wrapper d-flex justify-content-between">
-                                <h4 class="text-title-product text-uppercase">seat a</h4>
-                                <a href="" class="details " id="details-card">details</a>
-                            </div>
-                            <h5 class="sub-title-prd text-uppercase">standing with queue number</h5>
-                            <div class="content col-md-6 w-100 d-flex" id="top-icon">
-                               
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-money-bill-wave"></i> no refund allowed | </p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-hourglass-end"></i> valid on selected date only |</p>
-                                <p class="text-capitalize" id="icon-fa"> <i class="fa-solid fa-hourglass-end"></i> valid on selected date only |</p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-bolt"></i>instant conformartion</p>
-                            </div>   
-
-                            <div class="content col-md-6 w-100 d-flex" id="botm-icon">
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-circle"></i> all tickets are for standing area</p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-people-group"></i> standing</p>
-                            </div>
-
-                            <div class="col-lg-12 col-md-6 pt-2 d-flex w-100" id="checkhout">
-                                <h4 class="price-list text-uppercase"> <i class="fa-solid fa-money-bill"></i><span class="color">idr</span> 895.000</h4>
-                                <button class="btn btn-primary text-capitalize p-3" id="btn-checkout">check out</button>
-                            </div>
-                        </div>
-
-                        <div class="col-md-8 my-4" id="container-inside">
-                            <div class="wrapper d-flex justify-content-between">
-                                <h4 class="text-title-product text-uppercase">seat a</h4>
-                                <a href="" class="details " id="details-card">details</a>
-                            </div>
-
-                            <h5 class="sub-title-prd text-uppercase">standing with queue number</h5>
-                            <div class="content col-md-6 w-100 d-flex" id="top-icon">
-                               
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-money-bill-wave"></i> no refund allowed | </p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-hourglass-end"></i> valid on selected date only |</p>
-                                <p class="text-capitalize" id="icon-fa"> <i class="fa-solid fa-hourglass-end"></i> valid on selected date only |</p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-bolt"></i>instant conformartion</p>
-                            </div>   
-
-                            <div class="content col-md-6 w-100 d-flex" id="botm-icon">
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-circle"></i> all tickets are for standing area</p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-people-group"></i> standing</p>
-                            </div>
-
-                            <div class="col-lg-12 col-md-6 pt-2 d-flex w-100" id="checkhout">
-                                <h4 class="price-list text-uppercase"> <i class="fa-solid fa-money-bill"></i><span class="color">idr</span> 895.000</h4>
-                                <button class="btn btn-primary text-capitalize p-3" id="btn-checkout">check out</button>
-                            </div>
-                        </div>
-
-                        <div class="col-md-8 " id="container-inside">
-                            <div class="wrapper d-flex justify-content-between">
-                                <h4 class="text-title-product text-uppercase">seat a</h4>
-                                <a href="" class="details " id="details-card">details</a>
-                            </div>
-                            <h5 class="sub-title-prd text-uppercase">standing with queue number</h5>
-                            <div class="content col-md-6 w-100 d-flex" id="top-icon">
-                            
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-money-bill-wave"></i> no refund allowed | </p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-hourglass-end"></i> valid on selected date only |</p>
-                                <p class="text-capitalize" id="icon-fa"> <i class="fa-solid fa-hourglass-end"></i> valid on selected date only |</p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-bolt"></i>instant conformartion</p>
-                            </div>   
-
-                            <div class="content col-md-6 w-100 d-flex" id="botm-icon">
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-circle"></i> all tickets are for standing area</p>
-                                <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-people-group"></i> standing</p>
-                            </div>
-
-                            <div class="col-lg-12 col-md-6 pt-2 d-flex w-100" id="checkhout">
-                                <h4 class="price-list text-uppercase"> <i class="fa-solid fa-money-bill"></i><span class="color">idr</span> 895.000</h4>
-                                <button class="btn btn-primary text-capitalize p-3" id="btn-checkout">check out</button>
-                            </div>
-                        </div>
+                      
 
                     </div>
             

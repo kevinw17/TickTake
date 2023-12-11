@@ -25,7 +25,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #011417">
         <div class="container">
           <a class="navbar-brand" href="/home">TickTake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
@@ -48,6 +48,21 @@
         </div>
     </nav>
     <!-- Navbar -->
+
+
+    {{-- banner --}}
+
+
+    {{-- <div class="row d-flex align-items-center justify-content-center" >
+      <div class="col-lg-12 col-md-8 col-12 d-flex" >
+        <div class="banner-wrapper col-lg-12 d-flex">
+          <img src="img/banner-music.png" alt="" class="img-fluid" style="width:100%;">
+          
+        </div>
+
+       
+      </div>
+    </div>   --}}
 
     <!-- Container -->
     <div class="container">
