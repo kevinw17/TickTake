@@ -5,9 +5,9 @@
     <div class="container-fluid my-4" id="container-nav">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-12 col-md-6 col-sm-12 border justify-content-center" id="img-content">
+                <div class="col-lg-12 col-md-6 col-sm-12 justify-content-center" id="img-content">
 
-                    <img src="img/image 31.png" alt="" class="img-fluid" id="img-event">
+                    <img src="img/konser5.jpg" alt="" class="img-fluid" id="img-event" style="height: 18rem;">
                 </div>
 
                 <div class="col-lg-12 col-md-6 col-12 d-flex flex-direction-row border-bottom" id="navbar-content">
