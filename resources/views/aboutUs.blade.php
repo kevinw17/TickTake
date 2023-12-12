@@ -2,10 +2,10 @@
 
 @section('content')
   <div class="jumbotron text-center py-5" style="background-color: #4ECDC4">
-    <p class="display-1 text-capitalize">About us</p>
+    <p class="display-1 text-capitalize">About Us</p>
   </div>
     
-  <div class="row my-4 py-2 border ">
+  <div class="row my-4 py-2 border">
     <div class="col-md-4 my-4 bg-none">
         <img src="img/operator.jpg" alt="" class="img-fluid rounded-start">
     </div>
@@ -21,51 +21,47 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit at molestias aspernatur, 
               a culpa deserunt quos? Quo maxime at, ab officia corporis nesciunt eius mollitia. Unde obcaecati quidem ad? Repellendus?
           </p>
-          <button class="btn btn-outline-primary col-md-3"> click here</button>
         </div>
     </div>
   </div>
         
-  <div class="row my-4 py-2 border">
+  <div class="row mt-3 mb-5 py-2 border">
     <div class="col-md-8 mx-auto">
       <div class="card-body pt-2">
-        <h2 class="text-center">Our Team</h2>
+        <h2 class="text-center mb-5">Our Team</h2>
         <div class="row">
           <div class="col-md-4">
-            <div class="card mb-4">
-              <img src="/w3images/team1.jpg" alt="Kevin" class="card-img-top">
+            <div class="card mb-4" style="background-color: #4ECDC4">
+              <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
               <div class="card-body">
                 <h3 class="card-title">Kevin Winata</h3>
-                <p class="card-text title">-</p>
+                <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
-                <p class="card-text">email@example.com</p>
-                <button class="btn btn-primary w-100" style="background-color: #4ECDC4">Contact</button>
+                <p class="card-text">kevin.winata003@binus.ac.id</p>
               </div>
             </div>
           </div>
   
           <div class="col-md-4">
-            <div class="card mb-4">
-              <img src="/w3images/team2.jpg" alt="Aqil" class="card-img-top">
+            <div class="card mb-4" style="background-color: #4ECDC4">
+              <img src="img/team2.jpg" alt="Aqil" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
               <div class="card-body">
                 <h3 class="card-title">Aqil Nauffan M</h3>
-                <p class="card-text title">-</p>
+                <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
                 <p class="card-text">email@example.com</p>
-                <button class="btn btn-primary w-100" style="background-color: #4ECDC4">Contact</button>
               </div>
             </div>
           </div>
   
           <div class="col-md-4">
-            <div class="card mb-4">
-              <img src="/w3images/team3.jpg" alt="Walid" class="card-img-top">
+            <div class="card mb-4" style="background-color: #4ECDC4">
+              <img src="img/team3.jpg" alt="Walid" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
               <div class="card-body">
                 <h3 class="card-title">Walid Fernando S</h3>
-                <p class="card-text title">-</p>
+                <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
                 <p class="card-text">email@example.com</p>
-                <button class="btn btn-primary w-100" style="background-color: #4ECDC4">Contact</button>
               </div>
             </div>
           </div>
@@ -73,5 +69,4 @@
       </div>
     </div>
   </div>
-
 @endsection
