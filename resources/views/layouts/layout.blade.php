@@ -28,7 +28,7 @@
     
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #011417">
         <div class="container">
           <a class="navbar-brand" href="/">TickTake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
@@ -68,6 +68,10 @@
         </div>
     </nav>
     <!-- Navbar -->
+
+
+    {{-- banner --}}
+
 
     <!-- Container -->
     <div class="container">
