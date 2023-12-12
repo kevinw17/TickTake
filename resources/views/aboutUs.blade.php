@@ -30,10 +30,14 @@
       <div class="card-body pt-2">
         <h2 class="text-center mb-5">Our Team</h2>
         <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4" style="background-color: #4ECDC4">
-              <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
-              <div class="card-body">
+          <div class="col-md-4 d-flex">
+            <div class="card mb-4 d-flex w-100" style="background-color: #4ECDC4;">
+
+              <div class="wrapper img-fluid img-thumbnail d-flex justify-content-center">
+                <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle" style="padding: 1.5rem;">
+              </div>
+              
+              <div class="card-body align-items-center">
                 <h3 class="card-title">Kevin Winata</h3>
                 <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
@@ -42,26 +46,34 @@
             </div>
           </div>
   
-          <div class="col-md-4">
-            <div class="card mb-4" style="background-color: #4ECDC4">
-              <img src="img/team2.jpg" alt="Aqil" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
-              <div class="card-body">
-                <h3 class="card-title">Aqil Nauffan M</h3>
+          <div class="col-md-4 d-flex">
+            <div class="card mb-4 d-flex w-100" style="background-color: #4ECDC4;">
+
+              <div class="wrapper img-fluid img-thumbnail d-flex justify-content-center">
+                <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle" style="padding: 1.5rem;">
+              </div>
+              
+              <div class="card-body align-items-center">
+                <h3 class="card-title text-capitalize">aqil nauffan marjana</h3>
                 <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
-                <p class="card-text">email@example.com</p>
+                <p class="card-text">kevin.winata003@binus.ac.id</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-4">
-            <div class="card mb-4" style="background-color: #4ECDC4">
-              <img src="img/team3.jpg" alt="Walid" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
-              <div class="card-body">
-                <h3 class="card-title">Walid Fernando S</h3>
+          <div class="col-md-4 d-flex">
+            <div class="card mb-4 d-flex w-100" style="background-color: #4ECDC4;">
+
+              <div class="wrapper img-fluid img-thumbnail d-flex justify-content-center">
+                <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle" style="padding: 1.5rem;">
+              </div>
+              
+              <div class="card-body align-items-center">
+                <h3 class="card-title">walid fernando</h3>
                 <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
-                <p class="card-text">email@example.com</p>
+                <p class="card-text">kevin.winata003@binus.ac.id</p>
               </div>
             </div>
           </div>

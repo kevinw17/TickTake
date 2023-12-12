@@ -2,13 +2,7 @@
 
 @section('content')
   
-  
 
-
-  
-
-
- <img src="img/banner-music.png" alt="" class="img-fluid">
   
   <div class="row">
     <div class="col">
@@ -70,9 +64,9 @@
   
   <div class="container-fluid">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-3 my-3 ">
-            <button class="btn btn-success text-capitalized">See All</button>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-12 d-flex justify-content-center my-4 text-uppercase">
+          <a href="" class="btn btn-success" style="font-weight:bolder;" > see all</a>
         </div>
       </div>
     </div>
