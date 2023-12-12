@@ -53,17 +53,6 @@
     {{-- banner --}}
 
 
-    {{-- <div class="row d-flex align-items-center justify-content-center" >
-      <div class="col-lg-12 col-md-8 col-12 d-flex" >
-        <div class="banner-wrapper col-lg-12 d-flex">
-          <img src="img/banner-music.png" alt="" class="img-fluid" style="width:100%;">
-          
-        </div>
-
-       
-      </div>
-    </div>   --}}
-
     <!-- Container -->
     <div class="container">
         <div class="row">

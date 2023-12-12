@@ -5,6 +5,11 @@
   
 
 
+  
+
+
+ <img src="img/banner-music.png" alt="" class="img-fluid">
+  
   <div class="row">
     <div class="col">
       <div id="carouselExampleCaptions" class="carousel slide py-4 ">
