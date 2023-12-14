@@ -21,19 +21,19 @@ class OrganizerSeeder extends Seeder
             ],
             [
                 "name" => "Micproject",
-                "logo" => "R.png"
+                "logo" => "M.jpeg"
             ],
             [
                 "name" => "Lazada",
-                "logo" => "R.png"
+                "logo" => "Lazada.jpg"
             ],
             [
                 "name" => "Antara Suara",
-                "logo" => "R.png"
+                "logo" => "S.jpg"
             ],
             [
                 "name" => "FIFA",
-                "logo" => "R.png"
+                "logo" => "F.png"
             ],
         ];
 

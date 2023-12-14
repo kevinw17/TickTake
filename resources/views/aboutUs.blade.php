@@ -33,7 +33,7 @@
           <div class="col-md-4 d-flex">
             <div class="card mb-4 d-flex w-100" style="background-color: #4ECDC4;">
 
-              <div class="wrapper img-fluid img-thumbnail d-flex justify-content-center">
+              <div class="wrapper img-fluid  d-flex justify-content-center">
                 <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle" style="padding: 1.5rem;">
               </div>
               
