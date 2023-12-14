@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/events', [EventController::class, 'index']);
+Route::get('/eventdetail/{id}', [EventController::class, 'show']);
 Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
@@ -29,8 +30,8 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/aboutUs', [AboutUsController::class, 'index']);
 Route::get('/contactUs', [ContactUsController::class, 'index']);
 
-Route::get('/eventdetail', function () {
-    return view('eventdetail', [
-        "title" => "event detail"
-    ]);
-});
+// Route::get('/eventdetail', function () {
+//     return view('eventdetail', [
+//         "title" => "event detail"
+//     ]);
+// });

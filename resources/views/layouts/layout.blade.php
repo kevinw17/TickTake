@@ -28,7 +28,7 @@
     
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #011417">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
         <div class="container">
           <a class="navbar-brand" href="/">TickTake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
@@ -60,8 +60,7 @@
                   </ul>
                 </li>
               @else
-                <a class="nav-link" href="/register">Register</a>
-                <a class="nav-link" href="/login"><i class="bi bi-box-arrow-in-right"></i>Login</a>
+                <a class="nav-link" href="/login"><i class="bi bi-box-arrow-in-right"></i> Login</a>
               @endauth
             </div>
           </div> 

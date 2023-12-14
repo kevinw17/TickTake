@@ -1,15 +1,6 @@
 @extends('layouts.layout')
 
-@section('content')
-  
-  
-
-
-  
-
-
- <img src="img/banner-music.png" alt="" class="img-fluid">
-  
+@section('content')  
   <div class="row">
     <div class="col">
       <div id="carouselExampleCaptions" class="carousel slide py-4 ">
@@ -44,15 +35,12 @@
     </div>
   </div>
 
- 
-
- 
-
   @foreach ($categories as $c)
     <h5>{{ $c->name }}</h5>
     @foreach ($events as $event)
         @if ($c->name == $event->CategoryName)
           <div class="col"> 
+            <a href="/eventdetail" style="text-decoration: none; color: black">
             <div class="card my-4" style="width:300px">
                 <img class="card-img-top c-img" src="img/{{ $event->EventPict }}" alt="Card image">
                 <div class="card-body">
@@ -63,16 +51,17 @@
                   <a class="btn pb-2 position-relative ms-4">{{ $event->OrganizerName }}</a>
                 </div>
               </div>
+            </a>
           </div>
         @endif
       @endforeach
     @endforeach
   
-  <div class="container-fluid">
+  <<div class="container-fluid">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-3 my-3 ">
-            <button class="btn btn-success text-capitalized">See All</button>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-12 d-flex justify-content-center my-4">
+          <a href="" class="btn btn-success text-capitalize" style="font-weight:bolder;" > see all</a>
         </div>
       </div>
     </div>

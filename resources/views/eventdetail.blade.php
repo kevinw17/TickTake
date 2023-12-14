@@ -1,13 +1,13 @@
 @extends('layouts.layout')
 
 @section('content')
-
     <div class="container-fluid my-4" id="container-nav">
         <div class="container">
             <div class="row d-flex justify-content-center">
+                @foreach ($details as $detail)
                 <div class="col-lg-12 col-md-6 col-sm-12 justify-content-center" id="img-content">
 
-                    <img src="img/konser5.jpg" alt="" class="img-fluid" id="img-event" style="height: 18rem;">
+                    <img src="img/{{ $detail->EventPict }}" alt="" class="img-fluid" id="img-event" style="height: 18rem;">
                 </div>
 
                 <div class="col-lg-12 col-md-6 col-12 d-flex flex-direction-row border-bottom" id="navbar-content">
@@ -22,25 +22,25 @@
                     
                     <h5 class="title-text text-capitalize">events</h5>
 
-                    <h1 class="big-event-title text-uppercase col-md-4 w-100" id="biggest-event-title">gmmtv musicon in jakarta</h1>
+                    <h1 class="big-event-title text-uppercase col-md-4 w-100" id="biggest-event-title">{{ $detail->EventName }}</h1>
 
                     <div class="col-lg-12 col-md-5 my-3" id="content-box">
 
                         <div class="wrapper d-flex justify-content-between">
-                            <h5 class="event-launch"><i class="fa-solid fa-calendar-check"></i> 16 dec 2006</h5>
-                            <h3 class="price-tag" id="price-tag"><span class="price text-uppercase">idr</span> 895.000</h3>
+                            <h5 class="event-launch"><i class="fa-solid fa-calendar-check"></i> {{ $detail->EventDate }}</h5>
+                            <h3 class="price-tag" id="price-tag"><span class="price text-uppercase">Rp. </span> {{ $detail->EventPrice }}</h3>
                             
                         </div>
 
                         <div class="wrapper d-flex w-100 justify-content-between">
-                            <h5 class="location"><i class="fa-solid fa-location-dot"></i> jl anggrek, binus anggrek</h5>
+                            <h5 class="location"><i class="fa-solid fa-location-dot"></i> {{ $detail->EventPlace }}, {{ $detail->EventCity }}</h5>
                             <button class="btn btn-success text-capitalize" style="font-weight: bold;">see ticket</button>
                             
                         </div>
 
                         <div class="wrapper" id="quota">
                             
-                            <h5 class="text-capitalize"><i class="fa-solid fa-people-group"></i>1800 people</h5>
+                            <h5 class="text-capitalize"><i class="fa-solid fa-people-group"></i> {{ $detail->Quota }} people</h5>
                         </div>
                         
                        
@@ -95,7 +95,7 @@
                         <h5 class="text-capitalize">check product availability</h5>
                         
                         <div class="content" id="content-calendar">
-                            <button class="btn btn-success rounded-pill">16 dec</button>
+                            <button class="btn btn-success rounded-pill">{{ $detail->EventDate }}</button>
 
                             <button class="btn btn-success rounded-pill">other</button>
 
@@ -111,7 +111,7 @@
                                 <h4 class="text-title-product text-uppercase">entry ticket</h4>
                                 
                             </div>
-                            <h5 class="sub-title-prd text-uppercase">greenday music come to town</h5>
+                            <h5 class="sub-title-prd text-uppercase">{{ $detail->EventName }}</h5>
                             <div class="content col-md-6 w-100 d-flex" id="top-icon">
                 
                                 <p class="text-capitalize" id="icon-fa"><i class="fa-solid fa-money-bill-wave"></i> no refund allowed | </p>
@@ -126,7 +126,7 @@
                             </div>
 
                             <div class="col-lg-12 col-md-6 pt-2 d-flex w-100" id="checkhout">
-                                <h4 class="price-list text-uppercase"> <i class="fa-solid fa-money-bill"></i><span class="color">idr</span> 895.000</h4>
+                                <h4 class="price-list text-uppercase"> <i class="fa-solid fa-money-bill"></i><span class="color">Rp. </span> {{ $detail->EventPrice }}</h4>
                                 <button class="btn btn-primary text-capitalize p-3" id="btn-checkout">check out</button>
                             </div>
 
@@ -148,9 +148,9 @@
                         </div>
                     </div>
                 </div>
-
+                @endforeach
+                
                 <div class="row">
-
                     <h3 class="text-title text-capitalize my-2 pt-5">you might also like this</h3>
                     <div class="col-lg-12 col-md-8 col-12 d-flex justify-content-between">
                         
