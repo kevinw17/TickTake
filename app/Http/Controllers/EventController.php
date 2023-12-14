@@ -55,7 +55,8 @@ class EventController extends Controller
 
         return view('eventdetail', [
             "title" => "Event Detail",
-            "details" => $datas
+            "details" => $datas,
+            "event_detail" => $id
         ]);
     }
 }

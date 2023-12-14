@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
 
-    <link rel="stylesheet" href="{{ asset('event.details.css')}}">
+    {{-- <link rel="stylesheet" href="{{ asset('event_details.css')}}"> --}}
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
@@ -18,15 +18,9 @@
 
     {{-- font awesome link custom --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    {{-- css custom l --}}
-
 </head>
 
 <body>
-
-    
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
         <div class="container">
@@ -51,7 +45,6 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill"></i> My Account</a></li>
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-layout-text-sidebar-reverse"></i> Order History</a></li>
                     <li><hr class="dropdown-divider" href="#"></li>
                     <form action="/logout" method="POST">
                       @csrf
@@ -67,10 +60,6 @@
         </div>
     </nav>
     <!-- Navbar -->
-
-
-    {{-- banner --}}
-
 
     <!-- Container -->
     <div class="container">

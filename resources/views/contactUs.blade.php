@@ -8,9 +8,9 @@
 <div class="container d-flex align-items-center justify-content-center">
     <form action="/contactUs" class="col-md-6">
         @csrf
-        <div class="form-floating">
-            <input type="name" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="Name" autofocus required value="{{ old('name') }}">
+        <div class="form-group">
             <label for="name">Your name</label>
+            <input type="name" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="Name" autofocus required value="{{ old('name') }}">
             @error('name')
                 <div class="invalid-feedback">
                     {{ $message }}
@@ -18,9 +18,9 @@
             @enderror
         </div>
         
-        <div class="form-floating my-4">
-            <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" autofocus required value="{{ old('email') }}">
+        <div class="form-group my-4">
             <label for="email">Email address</label>
+            <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" autofocus required value="{{ old('email') }}">
             @error('email')
                 <div class="invalid-feedback">
                     {{ $message }}
@@ -31,8 +31,7 @@
         <div class="form-group my-4">
             <label for="select">What topic do you want to ask?</label>
             <select class="form-select" id="select" name="select" required>
-                <option selected>Select your choice</option>
-                <option value="Option 1">Option 1</option>
+                <option selected>Option 1</option>
                 <option value="Option 2">Option 2</option>
                 <option value="Option 3">Option 3</option>
             </select>

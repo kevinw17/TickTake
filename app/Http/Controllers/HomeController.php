@@ -13,9 +13,10 @@ class HomeController extends Controller
         $categories = Category::all();
         $datas = DB::select(
             "
-            SELECT e.name AS `EventName`, 
+            SELECT ed.id AS `EventDetailID`,
+                   e.name AS `EventName`, 
                    e.pict AS `EventPict`, 
-                   ed.event_date AS `EventDate`, 
+                   DATE_FORMAT(ed.event_date, '%M %d, %Y') AS `EventDate`, 
                    ed.price AS `EventPrice`, 
                    o.name AS `OrganizerName`, 
                    o.logo AS `OrganizerLogo`,
