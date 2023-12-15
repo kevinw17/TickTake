@@ -14,11 +14,7 @@ class EventController extends Controller
     
         $datas = DB::select(
             "
-<<<<<<< HEAD
-            SELECT ed.id AS `EventDetailID`, 
-=======
             SELECT ed.id AS `EventDetailID`,
->>>>>>> 126b81fdc7d89f28517219bb4d3edb8bfe11684c
                    e.name AS `EventName`, 
                    e.pict AS `EventPict`, 
                    DATE_FORMAT(ed.event_date, '%M %d, %Y') AS `EventDate`, 
