@@ -26,6 +26,6 @@ class ContactUsController extends Controller
 
         Contact_Us::create($validatedData);
 
-        return redirect('/contactUs')->with('success', 'Your message has been delivered! Thank you for contacting us!');
+        return back()->with('success', 'Your message has been delivered! Thank you for contacting us!');
     }
 }

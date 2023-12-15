@@ -23,7 +23,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #1A535C">
-        <div class="container">
+        <div class="container p-2">
           <a class="navbar-brand" href="/">TickTake</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
             aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                     Welcome, {{ auth()->user()->name }}
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill"></i> My Account</a></li>
+                    <li><a class="dropdown-item" href="/profile"><i class="bi bi-person-fill"></i> My Profile</a></li>
                     <li><hr class="dropdown-divider" href="#"></li>
                     <form action="/logout" method="POST">
                       @csrf

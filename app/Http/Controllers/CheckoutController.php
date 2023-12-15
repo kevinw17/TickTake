@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AboutUsController extends Controller
+class CheckoutController extends Controller
 {
     //
     public function index()
     {
-        return view('aboutUs', [
-            "title" => "About Us"
+        return view('checkOut', [
+            "title" => "Check Out Page"
         ]);
     }
 }
