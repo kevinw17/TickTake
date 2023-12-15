@@ -13,12 +13,4 @@ class AboutUsController extends Controller
             "title" => "About Us"
         ]);
     }
-
-    public function user_index($id)
-    {
-        return view('user_aboutUs', [
-            "title" => "About Us",
-            "name" => "Abraham"
-        ]);
-    }
 }
