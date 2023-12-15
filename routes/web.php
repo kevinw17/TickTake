@@ -31,5 +31,3 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/aboutUs', [AboutUsController::class, 'index']);
 Route::get('/contactUs', [ContactUsController::class, 'index']);
 Route::post('/contactUs', [ContactUsController::class, 'store']);
-Route::get('/profile', [ProfileController::class, 'index']);
-Route::put('/profile', [ProfileController::class, 'update']);
