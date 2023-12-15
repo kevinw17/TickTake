@@ -30,3 +30,6 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/aboutUs', [AboutUsController::class, 'index']);
 Route::get('/contactUs', [ContactUsController::class, 'index']);
 Route::post('/contactUs', [ContactUsController::class, 'store']);
+
+
+Route::get('/checkOut', function () {return view('checkOut');});
