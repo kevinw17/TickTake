@@ -5,9 +5,9 @@
     <p class="display-1 text-capitalize">About Us</p>
   </div>
     
-  <div class="row my-4 py-2 border">
+  <div class="row my-4 py-2 border" style="padding:10rem;">
     <div class="col-md-4 my-4 bg-none">
-        <img src="img/operator.jpg" alt="" class="img-fluid rounded-start">
+        <img src="img/operator.jpg" alt="" class="img-fluid rounded-start border w-100 h-100">
     </div>
     <div class="col-md-8">
         <div class="card-body pt-2">
@@ -69,4 +69,46 @@
       </div>
     </div>
   </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+            <h1 class="text-uppercase text-center">recent project</h1>  
+
+            <div class="row d-flex flex-direction-column justify-content-center w-100 h-75 my-5 p-4" style="gap: 10px;">
+            
+              <div class="col-md-3 w-25 border" style="background-color:aquamarine; ">
+                <img src="img/CSS-Logo.png" alt="" class="img-fluid rounded-circle my-5">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+              </div>
+              
+              
+              <div class="col-md-3" style="background-color:aquamarine;">
+                <img src="img/.net.png" alt="" class="img-fluid rounded-circle my-3" style="padding: 1rem;">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+              </div>
+
+              <div class="col-md-3" style="background-color:aquamarine;">
+                <img src="img/html.png" alt="" class="img-fluid rounded-circle my-5">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+              </div>
+
+              <div class="col-md-3" style="background-color:aquamarine;">
+                <img src="img/java.png" alt="" class="img-fluid rounded-circle" style="padding: 2rem;">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+              </div>
+
+              <div class="col-md-3" style="background-color:aquamarine;">
+                <img src="img/sql.png" alt="" class="img-fluid rounded-circle" style="padding: 2rem;">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+              </div>
+
+
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 @endsection
