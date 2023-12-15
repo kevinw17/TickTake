@@ -2,10 +2,11 @@
 
 @section('content')
   <div class="jumbotron text-center py-5" style="background-color: #4ECDC4">
-    <p class="display-1 text-capitalize">About Us</p>
+    <p class="display-1 text-capitalize" style="font-weight: 400;">About Us</p>
   </div>
-    
-  <div class="row my-4 py-2 border" style="padding:10rem;">
+
+  
+  <div class="row " style="padding:10rem;">
     <div class="col-md-4 my-4 bg-none">
         <img src="img/operator.jpg" alt="" class="img-fluid rounded-start border w-100 h-100">
     </div>
@@ -25,14 +26,17 @@
     </div>
   </div>
         
-  <div class="row mt-3 mb-5 py-2 border">
+  <div class="row mt-3 mb-5 py-2">
     <div class="col-md-8 mx-auto">
       <div class="card-body pt-2">
         <h2 class="text-center mb-5">Our Team</h2>
         <div class="row">
           <div class="col-md-4">
-            <div class="card mb-4" style="background-color: #4ECDC4">
-              <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
+            <div class="card mb-4" style="background-color: aquamarine">
+
+              <div class="wrapper" style="padding: 2.5rem; height: 20rem;" >
+                <img src="img/kevin.jpg" alt="Kevin" class="card-img-top rounded-circle w-100 img-thumbnail">
+              </div>
               <div class="card-body">
                 <h3 class="card-title">Kevin Winata</h3>
                 <p class="card-text title">Computer Science</p>
@@ -43,9 +47,12 @@
           </div>
   
           <div class="col-md-4">
-            <div class="card mb-4" style="background-color: #4ECDC4">
-              <img src="img/team2.jpg" alt="Aqil" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
-              <div class="card-body">
+            <div class="card mb-4" style="background-color: aquamarine">
+              <div class="wrapper"  style="padding: 2.5rem;">
+                <img src="img/aqil.jpg" alt="Aqil" class="card-img-top rounded-circle w-100 img-thumbnail">
+              </div>
+             
+              <div class="card-body"> 
                 <h3 class="card-title">Aqil Nauffan M</h3>
                 <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
@@ -55,8 +62,10 @@
           </div>
   
           <div class="col-md-4">
-            <div class="card mb-4" style="background-color: #4ECDC4">
-              <img src="img/team3.jpg" alt="Walid" class="card-img-top rounded-circle w-75 img-thumbnail mt-2 ms-4">
+            <div class="card mb-4" style="background-color: aquamarine">
+              <div class="wrapper"  style="padding: 2.5rem; height: 20rem;">
+                <img src="img/walid.png" alt="walid" class="card-img-top rounded-circle w-100 img-thumbnail">
+              </div>
               <div class="card-body">
                 <h3 class="card-title">Walid Fernando S</h3>
                 <p class="card-text title">Computer Science</p>
@@ -70,37 +79,39 @@
     </div>
   </div>
 
+
   <div class="container-fluid">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-            <h1 class="text-uppercase text-center">recent project</h1>  
 
-            <div class="row d-flex flex-direction-column justify-content-center w-100 h-75 my-5 p-4" style="gap: 10px;">
+          <h1 class="text-uppercase text-center">recent project</h1>  
+          
+          <div class="row d-flex flex-direction-column justify-content-center w-100 h-75 my-5 p-4" style="gap: 10px;">
             
-              <div class="col-md-3 w-25 border" style="background-color:aquamarine; ">
-                <img src="img/CSS-Logo.png" alt="" class="img-fluid rounded-circle my-5">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
-              </div>
-              
-              
+            <div class="col-md-3 w-25 border" style="background-color:aquamarine; ">
+              <img src="img/CSS-Logo.png" alt="" class="img-fluid rounded-circle my-5">
+              <p class="text my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+            </div>
+            
+            
               <div class="col-md-3" style="background-color:aquamarine;">
-                <img src="img/.net.png" alt="" class="img-fluid rounded-circle my-3" style="padding: 1rem;">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
-              </div>
-
-              <div class="col-md-3" style="background-color:aquamarine;">
-                <img src="img/html.png" alt="" class="img-fluid rounded-circle my-5">
+                <img src="img/laravel.jpg" alt="" class="img-fluid rounded-circle my-3" style="padding: 2rem;">
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
               </div>
 
               <div class="col-md-3" style="background-color:aquamarine;">
-                <img src="img/java.png" alt="" class="img-fluid rounded-circle" style="padding: 2rem;">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+                <img src="img/html.png" alt="" class="img-fluid rounded-circle my-5" style="padding: 0.5rem;">
+                <p class="text my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
               </div>
 
               <div class="col-md-3" style="background-color:aquamarine;">
-                <img src="img/sql.png" alt="" class="img-fluid rounded-circle" style="padding: 2rem;">
+                <img src="img/PHP.png" alt="" class="img-fluid rounded-circle my-5" style="padding: 3.5rem;">
+                <p class="text my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
+              </div>
+
+              <div class="col-md-3" style="background-color:aquamarine;">
+                <img src="img/sql.png" alt="" class="img-fluid rounded-circle my-4 " style="padding: 0.5rem;">
                 <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ullam magni vel tempora mollitia pariatur ipsam eaque numquam, quidem suscipit expedita rem veniam sed molestiae consectetur provident temporibus optio et?</p>
               </div>
 
@@ -109,6 +120,46 @@
         </div>
       </div>
     </div>
+    
+    
   </div>
 
+  <div class="jumbotron img-container" style="position: relative; margin-bottom: 8rem;">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-lg-11 col-md-8 col-sm-4">
+              <img src="img/binus.jpg" alt="" class="img-fluid w-100" style="height: 24rem;">
+            </div>
+
+            <div class="col-lg-1 col-md-4 col-sm-2" style="display: flex; flex-direction: column; padding: 2rem;">
+              <a href=""><i class="fa-brands fa-instagram w-100 fa-3x my-4" style="color: rgb(216, 20, 190)"></i></a>
+              <a href=""><i class="fa-brands fa-tiktok w-100 fa-3x my-4" style="color: rgb(33, 32, 32)"></i></a>
+              <a href=""><i class="fa-brands fa-facebook w-100 fa-3x my-4"></i></a>
+
+              <div class="row d-flex">
+                <div class="col-lg-3 col-sm-2" style="position: absolute; left:42rem; ">
+                    <div class="wrapper-box" style="border; background-color:silver; width:22rem;">
+                        <h1 class="text-uppercase" style="font-family:'Times New Roman', Times, serif">incolaboration</h1>
+                        <div class="body d-flex col-md-12" style="height: 10rem;">
+
+                          <div class="col-sm-6">
+                            <p class="text-capitalize ms-3" style="font-size: 10px; text-align: start;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                              Debitis aliquid rem, aliquam molestiae cupiditate explicabo beatae doloremque veniam reprehenderit veritatis distinctio quos 
+                              ipsum ipsa, maxime modi dicta, id sapiente commodi.</p>
+                          </div>
+
+                          <div class="col-sm-6">
+                            <p class="text-capitalize me-3 py-2" style="font-size: 10px; text-align: end;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                              Debitis aliquid rem, aliquam molestiae cupiditate explicabo beatae doloremque veniam reprehenderit veritatis distinctio quos 
+                              ipsum ipsa, maxime modi dicta, id sapiente commodi.</p>
+                          </div>
+                          
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
 @endsection
