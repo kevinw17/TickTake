@@ -29,6 +29,10 @@ class EventController extends Controller
             "
         );
 
+        // if(request('search')){
+        //     collect($datas)->where('EventName', 'like', '%' . request('search') . '%');
+        // };
+
         return view('events', [
             "title" => "All Events",
             "events" => $datas,

@@ -1,7 +1,19 @@
 @extends('layouts.layout')
 
 @section('content')
-  <div class="col mt-5"></div>
+  <div class="col-12 my-5">
+    <h1 class="text-center">All Events</h5>
+  </div>
+
+  {{-- <div class="row justify-content-center">
+    <div class="col-md-6 mb-4 ms-5">
+      <form action="/events" class="d-flex ms-5">
+        <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search the event">
+        <button class="btn" style="background-color: #4ECDC4" type="submit">Search</button>
+      </form>
+    </div>
+  </div> --}}
+  
   @foreach ($categories as $c)
   <h5>{{ $c->name }}</h5>
   @foreach ($events as $event)

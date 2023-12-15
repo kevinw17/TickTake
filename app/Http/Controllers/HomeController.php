@@ -10,7 +10,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $categories = Category::all();
         $datas = DB::select(
             "
             SELECT ed.id AS `EventDetailID`,
@@ -25,13 +24,14 @@ class HomeController extends Controller
             JOIN events e ON e.id = ed.event_id
             JOIN organizers o ON o.id = e.organizer_id
             JOIN categories c ON c.id = ed.category_id
+            ORDER BY EventDetailID ASC
+            LIMIT 8
             "
         );
 
         return view('home', [
             "title" => "Home Page",
             "events" => $datas,
-            "categories" => $categories
         ]);
     }
 }

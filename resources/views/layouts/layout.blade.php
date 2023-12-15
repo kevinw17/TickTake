@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
 
-    {{-- <link rel="stylesheet" href="{{ asset('event_details.css')}}"> --}}
+    <link rel="stylesheet" href="{{ asset('event_details.css')}}">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
@@ -29,10 +29,6 @@
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <form class="d-flex ms-5">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search the event">
-            <button class="btn" style="background-color: #4ECDC4" type="submit">Search</button>
-          </form>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link {{ ($title === "Home Page") ? 'active' : '' }}" aria-current="page" href="/">Home</a>
@@ -70,8 +66,8 @@
     <!-- Container -->
 
     <!-- Footer -->
-    <footer class="bg-body-tertiary text-center text-lg-start">
-        <div class="text-center p-3 text-light" style="background-color: #1A535C">
+    <footer class="bg-body-tertiary text-center text-lg-start mt-5">
+        <div class="text-center p-5 text-light" style="background-color: #1A535C">
             © 2023 TickTake.
             <i class="bi bi-instagram ms-2"></i>
             <i class="bi bi-youtube ms-2"></i>
