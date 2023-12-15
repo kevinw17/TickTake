@@ -33,29 +33,29 @@
             </div>
         </div>
 
-        {{-- <div class="mb-5 row">
-            <label for="name" class="col-sm-2 col-form-label">Address</label>
+        <div class="mb-5 row">
+            <label for="address" class="col-sm-2 col-form-label">Address</label>
             <div class="col-sm-10">
-            <textarea type="textarea" class="form-control @error('name') is-invalid @enderror" style="height: 160px" name="name h-50" value="{{ auth()->user()->name }}" required></textarea>
-            @error('name')
+            <textarea type="textarea" class="form-control @error('address') is-invalid @enderror" style="height: 160px" name="address" value="{{ auth()->user()->address }}"></textarea>
+            @error('address')
                 <div class="invalid-feedback">
                     {{ $message }}
                 </div>
             @enderror
             </div>
-        </div> --}}
+        </div>
 
-        {{-- <div class="mb-5 row">
-            <label for="name" class="col-sm-2 col-form-label">Phone Number</label>
+        <div class="mb-5 row">
+            <label for="phone_number" class="col-sm-2 col-form-label">Phone Number</label>
             <div class="col-sm-10">
-            <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ auth()->user()->name }}" required>
-            @error('name')
+            <input type="text" class="form-control @error('phone_number') is-invalid @enderror" name="phone_number" value="{{ auth()->user()->phone_number }}">
+            @error('phone_number')
                 <div class="invalid-feedback">
                     {{ $message }}
                 </div>
             @enderror
             </div>
-        </div> --}}
+        </div>
 
         <div class="row justify-content-center">
             <button class="w-25 btn btn-lg mt-5" type="submit" style="background-color: #4ECDC4">Update Changes</button>
