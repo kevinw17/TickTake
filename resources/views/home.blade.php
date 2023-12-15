@@ -1,13 +1,6 @@
 @extends('layouts.layout')
 
-<<<<<<< HEAD
-@section('content')
-  
-
-  
-=======
 @section('content')  
->>>>>>> 126b81fdc7d89f28517219bb4d3edb8bfe11684c
   <div class="row">
     <div class="col">
       <div id="carouselExampleCaptions" class="carousel slide py-4 ">
@@ -67,13 +60,8 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-<<<<<<< HEAD
-        <div class="col-lg-12 col-md-12 col-12 d-flex justify-content-center my-4 text-uppercase">
-          <a href="" class="btn btn-success" style="font-weight:bolder;" > see all</a>
-=======
         <div class="col-lg-12 col-md-12 col-12 d-flex justify-content-center my-4">
           <a href="/events" class="btn btn-success text-capitalize" style="font-weight:bolder;" > see all events</a>
->>>>>>> 126b81fdc7d89f28517219bb4d3edb8bfe11684c
         </div>
       </div>
     </div>
