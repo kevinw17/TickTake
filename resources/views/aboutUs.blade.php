@@ -56,7 +56,7 @@
                 <h3 class="card-title">Aqil Nauffan M</h3>
                 <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
-                <p class="card-text">email@example.com</p>
+                <p class="card-text">aqil.marjana@binus.ac.id</p>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
                 <h3 class="card-title">Walid Fernando S</h3>
                 <p class="card-text title">Computer Science</p>
                 <p class="card-text">lorem ipsum ipsum lorem lorem ipsum ipsum lorem.</p>
-                <p class="card-text">email@example.com</p>
+                <p class="card-text">walid.sastriana@binus.ac.id</p>
               </div>
             </div>
           </div>
@@ -132,9 +132,9 @@
             </div>
 
             <div class="col-lg-1 col-md-4 col-sm-2" style="display: flex; flex-direction: column; padding: 2rem;">
-              <a href=""><i class="fa-brands fa-instagram w-100 fa-3x my-4" style="color: rgb(216, 20, 190)"></i></a>
-              <a href=""><i class="fa-brands fa-tiktok w-100 fa-3x my-4" style="color: rgb(33, 32, 32)"></i></a>
-              <a href=""><i class="fa-brands fa-facebook w-100 fa-3x my-4"></i></a>
+              <a href="https://www.instagram.com/binus_kemanggisan/"><i class="fa-brands fa-instagram w-100 fa-3x my-4" style="color: rgb(216, 20, 190)"></i></a>
+              <a href="https://www.tiktok.com/@binusuniversityofficial"><i class="fa-brands fa-tiktok w-100 fa-3x my-4" style="color: rgb(33, 32, 32)"></i></a>
+              <a href="https://www.facebook.com/universitasbinanusantara/"><i class="fa-brands fa-facebook w-100 fa-3x my-4"></i></a>
 
               <div class="row d-flex">
                 <div class="col-lg-3 col-sm-2" style="position: absolute; left:42rem; ">
