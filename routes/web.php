@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/events', [EventController::class, 'index']);
 Route::get('/eventdetail/{id}', [EventController::class, 'show'])->name('eventdetail');
+Route::get('/checkout/{id}', [EventController::class, 'payment'])->name('checkOut');
 Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
@@ -34,4 +35,5 @@ Route::get('/contactUs', [ContactUsController::class, 'index']);
 Route::post('/contactUs', [ContactUsController::class, 'store']);
 Route::get('/profile', [ProfileController::class, 'index']);
 Route::put('/profile', [ProfileController::class, 'update']);
-Route::get('/checkout', [CheckoutController::class, 'index']);
+
+

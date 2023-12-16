@@ -20,10 +20,14 @@ class ProfileController extends Controller
     {
         $request->validate([
             'name' => 'required|max:255',
+            'address' => 'max:255',
+            'phone_number' => 'max:15'
         ]);
 
         auth()->user()->update([
-            'name' => $request->name
+            'name' => $request->name,
+            'address' => $request->address,
+            'phone_number' => $request->phone_number
         ]);
 
         return back()->with('success', 'Your profile has been updated!');
