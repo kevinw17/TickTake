@@ -5,7 +5,6 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 @foreach ($details as $detail)
-                    <img src="img/{{ $detail->EventPict }}" alt="" >
                     @if ($event_detail->id == $detail->EventDetailID)
                         {{-- <div class="col-lg-12 col-md-6 col-sm-12 justify-content-center" id="img-content">
                             <img src="img/{{ $detail->EventPict }}" alt="" class="img-fluid" id="img-event" style="height: 18rem;">

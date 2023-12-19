@@ -19,7 +19,7 @@
               <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <<a href="eventdetail/1"><img src="img/steve.jpg" class="d-block w-100" alt="..."></a>
+            <a href="eventdetail/1"><img src="img/steve.jpg" class="d-block w-100" alt="..."></a>
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
