@@ -12,7 +12,9 @@
             </div> 
         @endif
 
-        <h1 class="border-bottom my-5">My Profile</h1>
+        <div class="jumbotron text-center py-5 border-bottom mb-5">
+            <p class="display-1 text-capitalize" style="font-weight: 400;">My Profile</p>
+          </div>
 
         <div class="mb-5 row">
             <label for="name" class="col-sm-2 col-form-label">Name</label>
@@ -36,7 +38,7 @@
         <div class="mb-5 row">
             <label for="address" class="col-sm-2 col-form-label">Address</label>
             <div class="col-sm-10">
-            <textarea type="textarea" class="form-control @error('address') is-invalid @enderror" style="height: 160px" name="address" value="{{ auth()->user()->address }}"></textarea>
+            <input type="text" class="form-control @error('address') is-invalid @enderror" name="address" value="{{ auth()->user()->address }}">
             @error('address')
                 <div class="invalid-feedback">
                     {{ $message }}

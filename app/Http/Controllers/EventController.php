@@ -63,4 +63,23 @@ class EventController extends Controller
             "event_detail" => $id
         ]);
     }
+
+    public function payment(EventDetail $id)
+    {
+        $datas = DB::select(
+            "
+            SELECT ed.id AS EventDetailID,
+                   e.name AS EventName, 
+                   ed.price AS EventPrice
+            FROM event_details ed
+            JOIN events e ON e.id = ed.event_id
+            "
+        );
+
+        return view('checkOut', [
+            "title" => "Check Out Page",
+            "payment_id" => $id,
+            "payments" => $datas
+        ]);
+    }
 }

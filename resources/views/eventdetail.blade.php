@@ -21,7 +21,7 @@
 
                                 <div class="wrapper d-flex w-100 justify-content-between">
                                     <h5 class="location"><i class="fa-solid fa-location-dot"></i> {{ $detail->EventPlace }}, {{ $detail->EventCity }}</h5>
-                                    <a href="/checkout" class="btn btn-success text-capitalize" style="font-weight: bold;">buy ticket</a>   
+                                    <a href="/checkout/{{ $detail->EventDetailID }}" class="btn btn-success text-capitalize" style="font-weight: bold;">buy ticket</a>   
                                 </div>
 
                                 <div class="wrapper" id="quota">

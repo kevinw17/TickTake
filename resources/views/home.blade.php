@@ -11,15 +11,15 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/image1.png" class="d-block w-100" alt="...">
+                <a href="eventdetail/6"><img src="img/image1.png" class="d-block w-100" alt="..."></a>
               <div class="carousel-caption d-none d-md-block"></div>
             </div>
           <div class="carousel-item">
-              <img src="img/image2.jpg" class="d-block w-100" alt="...">
+                <a href="eventdetail/2"><img src="img/image2.jpg" class="d-block w-100" alt="..."></a>
               <div class="carousel-caption d-none d-md-block"></div>
           </div>
           <div class="carousel-item">
-            <img src="img/steve.jpg" class="d-block w-100" alt="...">
+            <<a href="eventdetail/1"><img src="img/steve.jpg" class="d-block w-100" alt="..."></a>
             <div class="carousel-caption d-none d-md-block"></div>
           </div>
         </div>

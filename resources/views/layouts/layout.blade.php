@@ -7,6 +7,7 @@
     <title>{{ $title }}</title>
 
     <link rel="stylesheet" href="{{ asset('event_details.css')}}">
+    <link rel="stylesheet" href="checkout.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
@@ -69,9 +70,9 @@
     <footer class="bg-body-tertiary text-center text-lg-start mt-5">
         <div class="text-center p-5 text-light" style="background-color: #1A535C">
             © 2023 TickTake.
-            <i class="bi bi-instagram ms-2"></i>
-            <i class="bi bi-youtube ms-2"></i>
-            <i class="bi bi-twitter-x ms-2"></i>
+            <a href="https://www.instagram.com/loketcom/" style="text-decoration: none; color: white"><i class="bi bi-instagram ms-2"></i></a>
+            <a href="https://www.youtube.com/@LOKETCOMVideos" style="text-decoration: none; color: white"><i class="bi bi-youtube ms-2"></i></a>
+            <a href="https://twitter.com/loketcom" style="text-decoration: none; color: white"><i class="bi bi-twitter-x ms-2"></i></a>
         </div>
     </footer>
     <!-- Footer -->    
