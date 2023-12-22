@@ -74,6 +74,7 @@
         </div>
       @endif
     @endforeach
+
   
   <div class="container-fluid">
     <div class="container">
